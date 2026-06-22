@@ -1,0 +1,11 @@
+*.csv
+*.rar
+*.zip
+data/
+Dataset/
+
+__pycache__/
+*.pyc
+
+venv/
+.env
