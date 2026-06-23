@@ -62,8 +62,6 @@ if __name__ == "__main__":
     # Khởi tạo bộ điều phối cấu hình
     scaler = RealTimeAutoscaler(model_path=model_file)
     
-    print("=== AI AUTOSCALER READY FOR PRODUCTION ===")
-    
     # Giả lập vòng lặp quét thông số định kỳ hệ thống
     for step in range(1, 6):
         # 1. Đo đạc thông số thực tế từ máy chủ (đầu vào 14 chiều giả lập theo định dạng giàu trạng thái)
